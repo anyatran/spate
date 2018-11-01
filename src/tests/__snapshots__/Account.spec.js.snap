@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Account /> should render Account 1`] = `
+<Account
+  company="me"
+  createdAt="2018-10-11"
+  firstName="anya"
+  lastName="tran"
+  onUpdate={[Function]}
+  role="musician"
+>
+  <div
+    className="account"
+  >
+    <h1>
+      My Account
+    </h1>
+    <form
+      className="account__form"
+      onSubmit={[Function]}
+    >
+      <label
+        className="account__field"
+      >
+        First Name
+        <input
+          className="account__input"
+          defaultValue="anya"
+          disabled={true}
+          name="firstName"
+          onBlur={[Function]}
+          required={true}
+          type="text"
+        />
+      </label>
+      <label
+        className="account__field"
+      >
+        Last Name
+        <input
+          className="account__input"
+          defaultValue="tran"
+          disabled={true}
+          name="lastName"
+          onBlur={[Function]}
+          required={true}
+          type="text"
+        />
+      </label>
+      <label
+        className="account__field"
+      >
+        Company
+        <input
+          className="account__input"
+          defaultValue="me"
+          disabled={true}
+          name="company"
+          onBlur={[Function]}
+          required={true}
+          type="text"
+        />
+      </label>
+      <label
+        className="account__field"
+      >
+        Role
+        <input
+          className="account__input"
+          defaultValue="musician"
+          disabled={true}
+          name="role"
+          onBlur={[Function]}
+          required={true}
+          type="text"
+        />
+      </label>
+      <label
+        className="account__field"
+      >
+        Created At
+        <input
+          className="account__input"
+          defaultValue="2018-10-11"
+          disabled={true}
+          name="createdAt"
+          onBlur={[Function]}
+          required={true}
+          type="date"
+        />
+      </label>
+      <div
+        className="account__buttons"
+      >
+        <Button
+          disabled={false}
+          onClick={[Function]}
+          text="Update user data"
+        >
+          <button
+            className="button"
+            disabled={false}
+            onClick={[Function]}
+          >
+            Update user data
+          </button>
+        </Button>
+      </div>
+    </form>
+  </div>
+</Account>
+`;

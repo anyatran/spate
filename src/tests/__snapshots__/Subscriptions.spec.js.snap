@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Subscriptions /> should render Subscriptions 1`] = `
+<Subscriptions
+  industry={Object {}}
+  plan={Object {}}
+>
+  <div
+    className="subscriptions"
+  >
+    <p
+      className="subscriptions__title"
+    >
+      you are subscribed to
+    </p>
+    <div
+      className="subscriptions__containers"
+    >
+      <Block
+        details="See details"
+        url="/"
+      >
+        <div
+          className="block"
+        >
+          <a
+            className="block__container block__container--link"
+            href="/"
+          >
+            <BlockContent
+              details="See details"
+            >
+              <div>
+                <p
+                  className="block__details"
+                >
+                  See details
+                </p>
+              </div>
+            </BlockContent>
+          </a>
+        </div>
+      </Block>
+    </div>
+  </div>
+</Subscriptions>
+`;

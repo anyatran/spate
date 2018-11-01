@@ -1,0 +1,28 @@
+.button {
+  background: $color-purple;
+  border: none;
+  border-radius: 3px;
+  color: $color-white;
+  display: block;
+  font-size: 0.9em;
+  height: 60px;
+  transition: background 0.2s linear;
+  width: 220px;
+
+  &:not(:disabled) {
+    cursor: pointer;
+  }
+
+  &:disabled {
+    background-color: $color-gray;
+    pointer-events: none;
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+  &:hover {
+    background: $color-purple--dark;
+  }
+}

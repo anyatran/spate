@@ -1,0 +1,18 @@
+.header {
+  align-items: center;
+  border-bottom: 2px solid $color-black;
+  display: flex;
+  height: $header-height;
+  justify-content: space-between;
+
+  &__logo {
+    font-weight: 100;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  &__navigation {
+    margin-left: 3vw;
+    text-transform: uppercase;
+  }
+}

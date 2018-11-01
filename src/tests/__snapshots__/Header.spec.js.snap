@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> should render Header 1`] = `
+<Header
+  name="anya"
+>
+  <div
+    className="header"
+  >
+    <a
+      className="header__logo"
+      href="/"
+    >
+      spate
+    </a>
+    <div
+      className="header__profile"
+    >
+      <a
+        className="header__navigation"
+        href="#"
+      >
+        music
+      </a>
+      <a
+        className="header__navigation"
+        href="#"
+      >
+        Hi 
+        anya
+      </a>
+    </div>
+  </div>
+</Header>
+`;

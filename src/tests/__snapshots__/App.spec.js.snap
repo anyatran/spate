@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> should render App 1`] = `
+<App>
+  <div
+    className="app"
+  >
+    <Header
+      name=""
+    >
+      <div
+        className="header"
+      >
+        <a
+          className="header__logo"
+          href="/"
+        >
+          spate
+        </a>
+        <div
+          className="header__profile"
+        >
+          <a
+            className="header__navigation"
+            href="#"
+          >
+            music
+          </a>
+          <a
+            className="header__navigation"
+            href="#"
+          >
+            Hi 
+          </a>
+        </div>
+      </div>
+    </Header>
+    <div
+      className="app__body"
+    />
+    <Footer>
+      <div
+        className="footer"
+      >
+        © spate 2018
+      </div>
+    </Footer>
+  </div>
+</App>
+`;

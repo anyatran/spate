@@ -1,0 +1,15 @@
+.subscriptions {
+
+  &__containers {
+    @media (min-width: $above-small) {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+  }
+
+  &__title {
+    font-weight: 200;
+    text-transform: uppercase;
+  }
+}

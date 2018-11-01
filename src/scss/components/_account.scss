@@ -1,0 +1,77 @@
+.account {
+  margin: $header-height 7vw;
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0;
+    position: relative;
+  }
+
+  &__field {
+    display: flex;
+    flex-direction: column;
+    font-weight: 200;
+    text-transform: uppercase;
+    width: 50%;
+
+    @media (max-width: $breakpoint-medium) {
+      width: 100%;
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 20px;
+    }
+  }
+
+  &__buttons {
+    border-top: 1px dashed $color-gray;
+    margin-top: 20px;
+    padding-top: 20px;
+
+    button {
+      margin: 10px auto;
+
+      @media (min-width: $above-small) {
+        display: inline;
+
+        &:not(:first-child) {
+          margin-left: 20px;
+        }
+      }
+    }
+  }
+
+  &__input {
+    border: none;
+    border-bottom: 1px solid $color-gray;
+    font-family: 'Merriweather', serif;
+    font-size: 1em;
+    line-height: 1.6em;
+    margin-top: 5px;
+    transition: border-bottom-color 0.2s linear;
+
+    &:focus {
+      border-bottom-color: $color-black;
+      outline: none;
+    }
+
+    &:disabled {
+      border-color: transparent;
+      color: $color-black;
+    }
+
+    &::-webkit-clear-button, &::-webkit-inner-spin-button {
+      display: none;
+      -webkit-appearance: none;
+    }
+  }
+
+  &__message {
+    font-size: 0.7rem;
+
+    @media (max-width: $breakpoint-small) {
+      margin: auto;
+    }
+  }
+}
